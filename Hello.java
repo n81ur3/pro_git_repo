@@ -16,7 +16,9 @@ public class Hello {
 		for (int i = 0; i < exp; i++) {
 			result *= base;
 		}
-
+		
+		System.out.println("####################################");
 		System.out.println(base + " to the power of " + exp + " equals " + result);
+		System.out.println("####################################");
 	}
 }
